@@ -31,3 +31,6 @@ chai_four = 'black tea'
 # l2 = l1[:]
 # In the above case a copy of l1 is created and l2 is pointing to the copy. So any change in l1 will not affect l2
 # we used "slice" here to copy, we can also use "copy()" module
+
+# 4. Empty paranthesis is of dictionary type not set
+# 5. Empty set is denoted as "set()"
