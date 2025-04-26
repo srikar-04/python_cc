@@ -31,8 +31,18 @@ for(chai in chai_types):
 for key,value in chai_types.items():
     # this is the syntax to get key, value pairs
 ```
+
+### adding and removing : 
+
+- pop() and popitem() are used to delete and item from dictionary
+```python
+chai_types = {"Masala":"Spicy", "Ginger": "Zesty", "Green":"Mild"}
+chai_types['lemon'] = 'refreshing'  # adding another item to dictionary
+chai_types.pop('Masala')  # removes the item with key "masala". The important thing is that it returns the value, i.e "spicy" in this case
+chai_types.popitem() # removes the value at the end. It returns the "Entire Item (key-value pair)"
+```
+
 - we can also use len() function for dictionaries
-- .popitem() is used to pop the last 'element'
 - can also use .copy() method
 - .clear() removes all the items from the dictionary and the dictionary will be empty
 
